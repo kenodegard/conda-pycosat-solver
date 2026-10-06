@@ -6,8 +6,8 @@ The hooks for the conda solver plugin system.
 """
 
 import sys
+from collections.abc import Iterable
 from functools import cache
-from typing import Iterable
 
 from conda.base.context import context
 from conda.plugins import hookimpl
